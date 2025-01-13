@@ -24,7 +24,7 @@ All the datasets used as reference and initial and boundary conditions are publi
 - 1D Firn core density profiles -----> Bréant and others (2017)
 - NEEM firn tunnel initial dimensions -----> technical report, Steffensen (2014)
 - NEEM 2012--2014 temperature record -----> GCnet, Vandecrux and others (2023)
-- NEGIS transect velocity field (for computing the strain-rate profile) ---> MEaSUREs program, Howat (2020)
+- NEGIS transect strain-rate profile ----> computed from the MEaSUREs program Greenland velocity field, Howat (2020)
 
 
 The codes also expect a particular folder structure (mostly to read the data from an input folder or save the results into an output one). It should be ready to run if the repository is cloned (or the particular folder of a simulation is downloaded) but, if any path issues arise, either create the missing folder (the easiest) or repath it for your purpose.
